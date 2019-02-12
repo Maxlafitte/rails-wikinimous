@@ -4,12 +4,17 @@
     <title>RailsWikinimous</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <nav class="navbar">
+      <h1>My articles</h1>
+        <%= link_to 'Add a new article', new_article_path %>
+    </nav>
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,48 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0;
+  font-family: 'roboto';
+}
+.navbar {
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+h1 {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+a:hover {
+  opacity: 1;
+}
+ul {
+  list-style-type: none;
+  width: 800px;
+  margin: 50px auto;
+}
+li {
+  padding: 15px 0px;
+}
+li > a {
+  font-size: 30px;
+  color: #307AAB;
+  opacity: 0.9;
+  font-weight: bolder;
+  text-decoration: none;
+}
+li > a:hover {
+  text-decoration: underline;
+  color: #307AAB;
+  opacity: 1;
+}
+.show-container {
+  text-align: center;
+}
